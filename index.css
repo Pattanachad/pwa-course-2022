@@ -6,3 +6,19 @@ body {
   border: 2px solid silver;
   background-color: lavender;
 }
+
+.box2 {
+  border: 2px solid silver;
+  background-color: rgb(230, 250, 233);
+  height: 100;
+  text-align: center;
+  margin-top: 10;
+}
+
+.box3 {
+  border: 2px solid silver;
+  background-color: rgb(230, 250, 233);
+  height: 400;
+  text-align: center;
+  margin-top: 10;
+}
