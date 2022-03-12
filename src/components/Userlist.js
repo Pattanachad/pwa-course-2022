@@ -3,9 +3,16 @@ import '../css/Userlist.css';
 
 function Userlist () {
   const [trayStatus, setTrayStatus] = useState("open");
+  
 
   function onButtonClicked() {
-    // ex01 filling logic here
+    if (trayStatus === "closed")
+    {
+      setTrayStatus("open")
+    }else if (trayStatus === "open")
+    {
+      setTrayStatus("closed")
+    }
   }
 
   return (
